@@ -1,0 +1,39 @@
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  background-image: linear-gradient(to right, #6288df, #ed74cf);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #ffff;
+  text-align: center;
+  width: 300px;
+
+}
+
+.stopwatch{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.button-container button{
+  background-color: #3f9dc5;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 100px;
+  height: 40px;
+  color: #f0eeee;
+  font-size: large;
+}
+i{
+  display: block;
+}
+.btn-play-pause{
+  margin-right: 40px;
+}
+
